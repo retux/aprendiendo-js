@@ -81,7 +81,7 @@ Si tenés una duda, sugerencia o comentario, podés cargar un [issue](https://gi
 
 - [ ] Server inicial
 - [ ] Rutas
-- [ ] Extra: 
+- [ ] Extra: HTML Templates
 
 ### APIs - Una API en producción
 
