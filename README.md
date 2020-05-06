@@ -1,6 +1,10 @@
 # Aprendiendo.js
 
-Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.js, disponible en YouTube.
+Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.js, disponible en [YouTube](https://www.youtube.com/channel/UCZYvniRWZdC_YeIL9fxwlsg).
+
+Las clases se dictan en vivo, todos los Martes a las 17hs (Hora de Argentina). Subscribite al canal, y activá las alertas para poder recibir avisos cuando empiecen las clases.
+
+Si tenés una duda, sugerencia o comentario, podés cargar un [issue](https://github.com/futurorandomico/aprendiendo-js/issues) y te lo respondemos lo mas rápido posible.
 
 ![Aprendiendo.js][logo]
 
@@ -34,20 +38,28 @@ Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.
         - [ ] map
         - [ ] filter
         - [ ] concat
-    - [ ] Objects
+    - [ ] Hashmaps
         - [ ] keys
         - [ ] merge
 - [ ] if
 - [ ] funciones
 - [ ] for / while
 - [ ] try / catch
+- [ ] Extra: Regular Expressions
 
-### Librerias
+### Librerías
 
-- [ ] Utilizacion de librerías de Node.js
+- [ ] Utilización de librerías de Node.js
 - [ ] Utilización de librerías de terceros (npm)
 - [ ] Creación de librerías propias
-- [ ] Standard.js
+- [ ] Extra: Standard.js
+
+### Programación orientada a objetos
+
+- [ ] Clases
+- [ ] Objetos
+- [ ] Herencia
+- [ ] Extra: Singleton
 
 ### Viviendo asincrónico
 
@@ -55,38 +67,49 @@ Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.
     - [ ] Callback hell
 - [ ] Promises
 - [ ] async / await
-- [ ] EventEmitter
+- [ ] Extra: EventEmitter
 
-### API - Parte 1 - Consumir una API
+### APIs - Consumir una API
 
 - [ ] HTTP / GET / POST / PUT / DELETE
 - [ ] JSON
 - [ ] Postman
 - [ ] request / axios
+- [ ] Extra: Filesystem
 
-### API - Parte 2 - Express
+### APIs - Creando una API con Express
 
 - [ ] Server inicial
 - [ ] Rutas
+- [ ] Extra: 
 
-### API - Parte 3 - Una API en producción
+### APIs - Una API en producción
 
 - [ ] Linux bare
 - [ ] Docker
     - [ ] Dockerfile
+- [ ] Extra: nginx
 
-## Sin un orden particular aún, otros temas a tratar que han surgido:
+### Bases de datos
 
-- Regular Expressions
-- Librerias interesantes
-    - moleculer
-    - cote
-    - bull
-- Multi-threading?
-- Filesystem?
-- Bases de datos?
-    - Mongodb?
-        - Mongoose?
-    - Redis?
+- [ ] MongoDB / mongoose
+    - [ ] Schema / Modelo
+    - [ ] Indices
+    - [ ] insert
+    - [ ] update
+    - [ ] delete
+    - [ ] find / findOne
+- [ ] Redis
+
+### Comunicación entre procesos - Moleculer
+- [ ] moleculer
+
+### Comunicación entre procesos - Cote
+- [ ] cote
+
+### Comunicación entre procesos - Bull
+- [ ] bull
+
+Y ojalá mucho mas por venir...
 
 [logo]: https://github.com/futurorandomico/aprendiendo-js/blob/master/resources/header.png?raw=true "Logo"
