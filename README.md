@@ -112,4 +112,4 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 
 Y ojalá mucho mas por venir...
 
-[logo]: https://github.com/futurorandomico/aprendiendo-js/blob/master/resources/header.png?raw=true "Logo"
+[logo]: https://github.com/futurorandomico/aprendiendo-js/blob/master/resources/header.jpg?raw=true "Logo"
