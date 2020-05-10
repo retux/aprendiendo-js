@@ -2,9 +2,9 @@
 
 Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.js, disponible en [YouTube](https://www.youtube.com/channel/UCZYvniRWZdC_YeIL9fxwlsg).
 
-Las clases se dictan en vivo, todos los Martes a las 17hs (Hora de Argentina). Subscribite al canal, y activá las alertas para poder recibir avisos cuando empiecen las clases.
+Las clases se dictan en vivo, todos los Martes a las 18hs (Hora de Argentina). Suscribite al canal, y activá las alertas para poder recibir avisos cuando empiecen las clases.
 
-Si tenés una duda, sugerencia o comentario, podés cargar un [issue](https://github.com/futurorandomico/aprendiendo-js/issues) y te lo respondemos lo mas rápido posible.
+Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://github.com/futurorandomico/aprendiendo-js/issues) y te lo respondemos lo mas rápido posible.
 
 ![Aprendiendo.js][logo]
 
