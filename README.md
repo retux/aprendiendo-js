@@ -12,22 +12,21 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 
 ### Empezando con Node.js
 
-- [ ] Instalación
-    - [ ] Versiones de Node.js
-        - [ ] Stable
-        - [ ] LTS
-        - [ ] https://node.green/
-    - [ ] nvm
-- [ ] Configuración de un repositorio base
-    - [ ] .gitignore
-    - [ ] package.json
-- [ ] Entorno de desarrollo
-    - [ ] Visual Studio Code
-    - [ ] `nodemon`
-- [ ] Hello, world!
-- [ ] Extra
-    - [ ] Event loop
-    - [ ] V8
+- [x] Instalación
+    - [x] Versiones de Node.js
+        - [x] Stable
+        - [x] LTS
+        - [x] https://node.green/
+    - [x] nvm
+- [x] Configuración de un repositorio base
+    - [x] .gitignore
+    - [x] package.json
+- [x] Entorno de desarrollo
+    - [x] Visual Studio Code
+- [x] Hello, world!
+- [x] Extra
+    - [x] Event loop
+    - [x] V8
 
 ### Estructuras básicas
 
@@ -73,6 +72,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] Utilización de librerías de terceros (npm)
 - [ ] Creación de librerías propias
 - [ ] Extra
+    - [ ] `nodemon`
     - [ ] Standard.js
 
 ### Programación orientada a objetos
