@@ -23,51 +23,75 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [ ] package.json
 - [ ] Entorno de desarrollo
     - [ ] Visual Studio Code
-    - [ ] nodemon
+    - [ ] `nodemon`
 - [ ] Hello, world!
+- [ ] Extra
+    - [ ] Event loop
+    - [ ] V8
 
 ### Estructuras básicas
 
-- [ ] var / let / const
-    - [ ] String
-    - [ ] Number
-    - [ ] Bool
-    - [ ] Arrays
-        - [ ] push / pop
-        - [ ] forEach
-        - [ ] map
-        - [ ] filter
-        - [ ] concat
-    - [ ] Hashmaps
-        - [ ] keys
-        - [ ] merge
-- [ ] if
-- [ ] funciones
-- [ ] for / while
-- [ ] try / catch
-- [ ] Extra: Regular Expressions
+- [ ] Declarando variables
+    - [ ] Tipado dinámico
+    - [ ] `var` vs `let` vs `const`
+    - [ ] `typeof`
+    - [ ] Declaración
+    - [ ] Asignación    
+- [ ] Tipos de datos
+    - [ ] `string`
+    - [ ] `number`
+    - [ ] `boolean`
+    - [ ] `null` / `undefined`
+    - [ ] `Array`
+        - [ ] Declaración
+        - [ ] Asignación
+        - [ ] `push` / `pop`
+        - [ ] `forEach`
+        - [ ] `map`
+        - [ ] `filter`
+        - [ ] `concat`
+    - [ ] `Object` (Hashmaps)
+        - [ ] Declaración
+        - [ ] Asignación
+        - [ ] `keys`
+        - [ ] `merge`
+- [ ] `if`
+    - [ ] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
+- [ ] `function`
+    - [ ] Declaración
+    - [ ] Expresión
+- [ ] `Error`
+- [ ] `for` / `while`
+- [ ] `try` / `catch` / `finally`
+- [ ] Extra
+    - [ ] `RegExp` (Regular Expressions)
+    - [ ] `Set`
 
 ### Librerías
 
 - [ ] Utilización de librerías de Node.js
 - [ ] Utilización de librerías de terceros (npm)
 - [ ] Creación de librerías propias
-- [ ] Extra: Standard.js
+- [ ] Extra
+    - [ ] Standard.js
 
 ### Programación orientada a objetos
 
 - [ ] Clases
 - [ ] Objetos
 - [ ] Herencia
-- [ ] Extra: Singleton
+- [ ] this
+- [ ] Extra
+    - [ ] Singleton
 
 ### Viviendo asincrónico
 
 - [ ] Callbacks
     - [ ] Callback hell
 - [ ] Promises
-- [ ] async / await
-- [ ] Extra: EventEmitter
+- [ ] `async` / `await`
+- [ ] Extra
+    - [ ] EventEmitter
 
 ### APIs - Consumir una API
 
@@ -75,20 +99,23 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] JSON
 - [ ] Postman
 - [ ] request / axios
-- [ ] Extra: Filesystem
+- [ ] Extra
+    - [ ] `fs` (Filesystem)
 
 ### APIs - Creando una API con Express
 
 - [ ] Server inicial
 - [ ] Rutas
-- [ ] Extra: HTML Templates
+- [ ] Extra
+    - [ ] HTML Templates
 
 ### APIs - Una API en producción
 
 - [ ] Linux bare
 - [ ] Docker
     - [ ] Dockerfile
-- [ ] Extra: nginx
+- [ ] Extra
+    - [ ] nginx
 
 ### Bases de datos
 
@@ -110,6 +137,6 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 ### Comunicación entre procesos - Bull
 - [ ] bull
 
-Y ojalá mucho mas por venir...
+Y mucho mas por venir...
 
 [logo]: https://github.com/futurorandomico/aprendiendo-js/blob/master/resources/header.jpg?raw=true "Logo"
