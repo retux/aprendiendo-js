@@ -1,0 +1,33 @@
+{
+  "name": "aprendiendo.js",
+  "version": "1.0.0",
+  "description": "Este es el repositorio central de Aprendiendo.js, curso online gratuito de Node.js, disponible en YouTube: https://www.youtube.com/channel/UCZYvniRWZdC_YeIL9fxwlsg",
+  "main": "index.js",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/futurorandomico/aprendiendo-js.git"
+  },
+  "keywords": [
+    "aprendiendo",
+    "js",
+    "nodejs",
+    "curso",
+    "online",
+    "gratuito",
+    "aprender",
+    "free",
+    "online",
+    "course",
+    "recursos",
+    "resources"
+  ],
+  "author": "Sebastian Arena <futuro@randomico.xyz>",
+  "license": "CC0-1.0",
+  "bugs": {
+    "url": "https://github.com/futurorandomico/aprendiendo-js/issues"
+  },
+  "homepage": "https://github.com/futurorandomico/aprendiendo-js#readme",
+  "dependencies": {
+    "standard": "14.3.4"
+  }
+}
