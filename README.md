@@ -59,6 +59,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] `function`
     - [ ] Declaración
     - [ ] Expresión
+    - [ ] Arrow
 - [ ] `Error`
 - [ ] `for` / `while`
 - [ ] `try` / `catch` / `finally`
@@ -74,6 +75,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] Extra
     - [ ] `nodemon`
     - [ ] Standard.js
+    - [ ] CLI (?)
 
 ### Programación orientada a objetos
 
@@ -92,6 +94,8 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] `async` / `await`
 - [ ] Extra
     - [ ] EventEmitter
+    - [ ] Single Thread
+    - [ ] Event Loop, parte 2
 
 ### APIs - Consumir una API
 
