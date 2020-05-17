@@ -27,7 +27,7 @@
     "url": "https://github.com/futurorandomico/aprendiendo-js/issues"
   },
   "homepage": "https://github.com/futurorandomico/aprendiendo-js#readme",
-  "dependencies": {
+  "devDependencies": {
     "standard": "14.3.4"
   }
 }
