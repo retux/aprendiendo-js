@@ -30,35 +30,38 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 
 ### Estructuras básicas
 
-- [ ] Declarando variables
-    - [ ] Tipado dinámico
-    - [ ] `var` vs `let` vs `const`
-    - [ ] `typeof`
-    - [ ] Declaración
-    - [ ] Asignación    
+- [x] Declarando variables
+    - [x] Tipado dinámico
+    - [x] `var` vs `let` vs `const`
+    - [x] `typeof`
+    - [x] Declaración
+    - [x] Asignación    
 - [ ] Tipos de datos
-    - [ ] `string`
-    - [ ] `number`
-    - [ ] `boolean`
-    - [ ] `null` / `undefined`
+    - [x] `string`
+    - [x] `number`
+    - [x] `boolean`
+    - [x] `null` / `undefined`
     - [ ] `Array`
-        - [ ] Declaración
-          - [ ] Expresión
-          - [ ] new (no recomendada)
-        - [ ] Asignación
-        - [ ] `push` / `pop`
-        - [ ] `forEach`
-        - [ ] `map`
+        - [x] Declaración
+          - [x] Expresión
+          - [x] new (no recomendada)
+        - [x] Asignación
+        - [x] `push` / `pop`
+        - [x] `forEach`
+        - [x] `map`
         - [ ] `filter`
-        - [ ] `concat`
+        - [x] `concat`
     - [ ] `Object` (Hashmaps)
-        - [ ] Declaración
-          - [ ] Expresión
+        - [x] Declaración
+          - [x] Expresión
           - [ ] function (no recomendada)
           - [ ] new (luego de ver POO)
-        - [ ] Asignación
-        - [ ] `keys`
-        - [ ] `assign`
+        - [x] Asignación
+        - [x] `keys`
+        - [x] `assign`
+
+### Estructuras básicas (Parte 2)
+
 - [ ] `if`
     - [ ] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
 - [ ] `function`
