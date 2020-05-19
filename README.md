@@ -43,6 +43,8 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [ ] `null` / `undefined`
     - [ ] `Array`
         - [ ] Declaración
+          - [ ] Expresión
+          - [ ] new (no recomendada)
         - [ ] Asignación
         - [ ] `push` / `pop`
         - [ ] `forEach`
@@ -51,21 +53,25 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
         - [ ] `concat`
     - [ ] `Object` (Hashmaps)
         - [ ] Declaración
+          - [ ] Expresión
+          - [ ] function (no recomendada)
+          - [ ] new (luego de ver POO)
         - [ ] Asignación
         - [ ] `keys`
-        - [ ] `merge`
+        - [ ] `assign`
 - [ ] `if`
     - [ ] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
 - [ ] `function`
     - [ ] Declaración
-    - [ ] Expresión
-    - [ ] Arrow
-- [ ] `Error`
-- [ ] `for` / `while`
+      - [ ] Expresión
+      - [ ] Variable
+      - [ ] Arrow
+- [ ] `for` / `while` / `do... while`
 - [ ] `try` / `catch` / `finally`
 - [ ] Extra
     - [ ] `RegExp` (Regular Expressions)
     - [ ] `Set`
+    - [ ] `Error`
 
 ### Librerías
 
@@ -77,7 +83,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [ ] Standard.js
     - [ ] CLI (?)
 
-### Programación orientada a objetos
+### Programación orientada a objetos (POO, o tambíen OOP en inglés)
 
 - [ ] Clases
 - [ ] Objetos
