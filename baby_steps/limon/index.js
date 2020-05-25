@@ -44,14 +44,15 @@ function readIfStats(netIf) {
 function calculateRateAsync (netIf, callback) {
     // Calculate troughput (kbps) in a given time frame
     // TODO add error handling
+    const interval = 2000
     const results = {}
     const stat1 = readIfStats(netIf)
     setTimeout(function(){
         const stat2 = readIfStats(netIf)
-        results.txRateBps = (stat2.rxBytes - stat1.rxBytes) * 8
-        results.rxRateBps = (stat2.txBytes - stat1.txBytes) * 8
+        results.rxbps = Math.floor(((stat2.rxBytes - stat1.rxBytes) * 8) / (interval/1000))
+        results.txbps = Math.floor(((stat2.txBytes - stat1.txBytes) * 8) / (interval/1000))
         callback (null, results)
-    }, 5000)
+    }, interval)
 }
 
 
