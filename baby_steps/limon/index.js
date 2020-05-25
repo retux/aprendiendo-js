@@ -7,7 +7,7 @@
 const fs = require('fs')
 const http = require('http')
 const colors = require('colors')
-const sleep = require('sleep')
+const child = require('child_process');
 
 
 function printUsage() {
@@ -41,14 +41,23 @@ function readIfStats(netIf) {
 }
 
 
+function readIfStatsBsd(netIf) {
+    const netStat = {}
+    netStat.rxBytes = Number(child.execSync(`/usr/bin/netstat -i -b -n -I ${netIf} | tail -n 1 | awk '{print $8}'`).toString() )
+    netStat.txBytes = Number(child.execSync(`/usr/bin/netstat -i -b -n -I ${netIf} | tail -n 1 | awk '{print $11}'`).toString() )
+    return netStat  
+}
+
+
 function calculateRateAsync (netIf, callback) {
     // Calculate troughput (kbps) in a given time frame
-    // TODO add error handling
+    // TODO add error handling - OS detection
     const interval = 2000
     const results = {}
-    const stat1 = readIfStats(netIf)
+    let stat1, stat2
+    process.platform.includes('bsd') ? stat1 = readIfStatsBsd(netIf) : stat1 = readIfStats(netIf)
     setTimeout(function(){
-        const stat2 = readIfStats(netIf)
+        process.platform.includes('bsd') ? stat2 = readIfStatsBsd(netIf) : stat2 = readIfStats(netIf)
         results.rxbps = Math.floor(((stat2.rxBytes - stat1.rxBytes) * 8) / (interval/1000))
         results.txbps = Math.floor(((stat2.txBytes - stat1.txBytes) * 8) / (interval/1000))
         callback (null, results)
@@ -57,24 +66,21 @@ function calculateRateAsync (netIf, callback) {
 
 
 function main() {
+    const PORT = 8080
     theArgs = process.argv.slice(2)
     const netIf = theArgs[validateAndParseInput(theArgs)+1] 
-
+    console.log(colors.bold.green("[info]") + ` Server listening on port: ${PORT}`)
     http.createServer(function (req, res) {
         const rate = calculateRateAsync(netIf, function(err, results) {
             res.writeHead(200, {'Content-Type': 'application/json'})
             res.write(JSON.stringify(results))
             return res.end()
         })
-    }).listen(8080)
+    }).listen(PORT)
     
     // calculateRateAsync(netIf, function(err, results) {
     //     console.log(results)
     // }) 
-    
 }
 
-
 main()
-
-

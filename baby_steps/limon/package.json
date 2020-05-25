@@ -14,8 +14,8 @@
   "author": "retux",
   "license": "GPL-3.0-or-later",
   "dependencies": {
+    "child_process": "^1.0.2",
     "colors": "^1.4.0",
-    "fs": "0.0.1-security",
-    "sleep": "^6.2.0"
+    "fs": "0.0.1-security"
   }
 }
