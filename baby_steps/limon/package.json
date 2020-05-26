@@ -1,0 +1,21 @@
+{
+  "name": "limon",
+  "version": "0.0.1",
+  "description": "limon - Stands for linux monitor: so far implemented network traffic monitor.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [
+    "linux",
+    "networking",
+    "stats"
+  ],
+  "author": "retux",
+  "license": "GPL-3.0-or-later",
+  "dependencies": {
+    "child_process": "^1.0.2",
+    "colors": "^1.4.0",
+    "fs": "0.0.1-security"
+  }
+}
