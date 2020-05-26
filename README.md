@@ -49,7 +49,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
         - [x] `push` / `pop`
         - [x] `forEach`
         - [x] `map`
-        - [ ] `filter`
+        - [x] `filter`
         - [x] `concat`
     - [ ] `Object` (Hashmaps)
         - [x] Declaración
@@ -62,19 +62,21 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 
 ### Estructuras básicas (Parte 2)
 
-- [ ] `if`
-    - [ ] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
-- [ ] `function`
-    - [ ] Declaración
-      - [ ] Expresión
-      - [ ] Variable
-      - [ ] Arrow
+- [x] `if`
+    - [x] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
+- [x] `switch`
+- [x] `function`
+    - [x] Declaración
+      - [x] Expresión
+      - [x] Variable
+      - [x] Arrow
 - [ ] `for` / `while` / `do... while`
 - [ ] `try` / `catch` / `finally`
 - [ ] Extra
     - [ ] `RegExp` (Regular Expressions)
     - [ ] `Set`
     - [ ] `Error`
+- [ ] Tarea: hacer un programa que tenga un array de objectos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar
 
 ### Librerías
 
