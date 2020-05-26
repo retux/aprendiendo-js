@@ -10,7 +10,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 
 ## Temario
 
-### Empezando con Node.js
+### Empezando con Node.js (Clase 1)
 
 - [x] Instalación
     - [x] Versiones de Node.js
@@ -28,7 +28,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [x] Event loop
     - [x] V8
 
-### Estructuras básicas
+### Estructuras básicas (Clase 2)
 
 - [x] Declarando variables
     - [x] Tipado dinámico
@@ -60,7 +60,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
         - [x] `keys`
         - [x] `assign`
 
-### Estructuras básicas (Parte 2)
+### Estructuras básicas - Parte 2 (Clase 3)
 
 - [x] `if`
     - [x] `==` vs `===` (https://dorey.github.io/JavaScript-Equality-Table/ 🤦‍♂️)
@@ -70,27 +70,19 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
       - [x] Expresión
       - [x] Variable
       - [x] Arrow
-- [ ] `for` / `while` / `do... while`
-- [ ] `try` / `catch` / `finally`
-- [ ] Extra
-    - [ ] `RegExp` (Regular Expressions)
-    - [ ] `Set`
-    - [ ] `Error`
 - [ ] Tarea: hacer un programa que tenga un array de objectos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar
 
-### Librerías
+### Estructuras básicas - Parte 3 (Clase 4)
 
-- [ ] Utilización de librerías de Node.js
-- [ ] Utilización de librerías de terceros (npm)
-- [ ] Creación de librerías propias
+- [ ] `for` / `while` / `do... while`
+- [ ] `try` / `catch` / `finally` / `throw` / `Error`
+- [ ] `JSON`
+  - [ ] `parse`
+  - [ ] `stringify`
+- [ ] `fs` (Filesystem)
+- [ ] `setTimeout` / `setInterval`
 - [ ] Extra
-    - [ ] `nodemon`
-    - [ ] Standard.js
-    - [ ] `fs` (Filesystem)
-    - [ ] CLI
-      - [ ] readline
-      - [ ] commander
-- [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
+  - [ ] `RegExp` (Regular Expressions)
 
 ### Viviendo asincrónico
 
@@ -102,6 +94,19 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [ ] EventEmitter
     - [ ] Single Thread
     - [ ] Event Loop, parte 2
+
+### Librerías
+
+- [ ] Utilización de librerías de Node.js
+- [ ] Utilización de librerías de terceros (npm)
+- [ ] Creación de librerías propias
+- [ ] Extra
+    - [ ] `nodemon`
+    - [ ] Standard.js
+    - [ ] CLI
+      - [ ] readline
+      - [ ] commander
+- [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
 
 ### Programación orientada a objetos (POO, o tambíen OOP en inglés)
 
