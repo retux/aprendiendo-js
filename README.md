@@ -84,16 +84,11 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [ ] Extra
     - [ ] `nodemon`
     - [ ] Standard.js
-    - [ ] CLI (?)
-
-### Programación orientada a objetos (POO, o tambíen OOP en inglés)
-
-- [ ] Clases
-- [ ] Objetos
-- [ ] Herencia
-- [ ] this
-- [ ] Extra
-    - [ ] Singleton
+    - [ ] `fs` (Filesystem)
+    - [ ] CLI
+      - [ ] readline
+      - [ ] commander
+- [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
 
 ### Viviendo asincrónico
 
@@ -106,14 +101,21 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [ ] Single Thread
     - [ ] Event Loop, parte 2
 
+### Programación orientada a objetos (POO, o tambíen OOP en inglés)
+
+- [ ] Clases
+- [ ] Objetos
+- [ ] Herencia
+- [ ] this
+- [ ] Extra
+    - [ ] Singleton
+
 ### APIs - Consumir una API
 
 - [ ] HTTP / GET / POST / PUT / DELETE
 - [ ] JSON
 - [ ] Postman
-- [ ] request / axios
-- [ ] Extra
-    - [ ] `fs` (Filesystem)
+- [ ] request / axios    
 
 ### APIs - Creando una API con Express
 
