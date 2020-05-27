@@ -9,13 +9,11 @@ const http = require('http')
 const colors = require('colors')
 const child = require('child_process');
 
-
 function printUsage() {
-    console.log(colors.bold.red("Usage: "))
-    console.log("    node index.js -i|--interface <interface>.")
-    console.log("    ex: node index.js -i eth0")
+    console.log(colors.bold.red('Usage: '))
+    console.log('    node index.js -i|--interface <interface>.')
+    console.log('    ex: node index.js -i eth0')
 }
-
 
 function validateAndParseInput(theArgs) {
     let found = -1
@@ -32,14 +30,12 @@ function validateAndParseInput(theArgs) {
     return found
 }
 
-
 function readIfStats(netIf) {
     const netStat = {}
     netStat.rxBytes = Number(fs.readFileSync(`/sys/class/net/${netIf}/statistics/rx_bytes`, 'UTF-8'))
     netStat.txBytes = Number(fs.readFileSync(`/sys/class/net/${netIf}/statistics/tx_bytes`, 'UTF-8'))
     return netStat
 }
-
 
 function readIfStatsBsd(netIf) {
     const netStat = {}
@@ -63,7 +59,6 @@ function calculateRateAsync (netIf, callback) {
         callback (null, results)
     }, interval)
 }
-
 
 function main() {
     const PORT = 8080
