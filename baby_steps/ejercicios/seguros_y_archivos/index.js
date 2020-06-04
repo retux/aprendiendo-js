@@ -17,7 +17,7 @@ function getAutosDesdeEntrada (dirPath) {
       }
       archivos.forEach(function(archivo) {
         if (/.*\.json$/.exec(archivo)) {
-          console.log(`found: ${dirPath}/${archivo}.`)
+          // console.log(`found: ${dirPath}/${archivo}.`)
           try {
             fs.readFile(path.join(dirPath, archivo), 'utf8', function (err,datos) {
               if (err) {
@@ -59,22 +59,14 @@ function calcularCostoPoliza(listadeAutos, archivoSalida) {
     }
     coche.costoseguro = precioFinal
     objSalida.push(coche)
-    //console.log(objSalida)
-    fs.writeFile(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2), function (err) {
-      if (err) {
-        throw new Error('Ameo, algo anduvo mal con el archivo de salida')
-      }    
-    })
-    //fs.writeFileSync(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2))
-    
+    fs.writeFileSync(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2))
   })
-  //console.log(JSON.stringify(objSalida))
 }
 
 function main() {
   getAutosDesdeEntrada(path.join(__dirname, 'input'))
+  console.log('[info] Si suerte has tenido, el directorio output ver debes.')
 }
-
 
 main()
 
