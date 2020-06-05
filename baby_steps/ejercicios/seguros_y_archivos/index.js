@@ -46,20 +46,25 @@ function getAutosDesdeEntrada (dirPath) {
   }
 }
 
+function getCostoPoliza(coche) {
+  // Recibe un objeto auto, calcula su atributo valor (de póliza) y retorna
+  // el objeto con ese nuevo atributo actualizado.
+  if (coche.fabricadoen <= 2000) { 
+    precioFinal = coche.valor * 1.05
+  } 
+  if (coche.fabricadoen <= 1985) {
+    precioFinal = coche.valor * 1.10
+  } 
+  if (coche.fabricadoen <= 1977) { 
+    precioFinal = coche.valor * 1.30 
+  }
+  return coche
+}
+
 function calcularCostoPoliza(listadeAutos, archivoSalida) {
   const objSalida = []
   listadeAutos.forEach(function(coche) {
-    if (coche.fabricadoen <= 2000) { 
-      precioFinal = coche.valor * 1.05
-    } 
-    if (coche.fabricadoen <= 1985) {
-      precioFinal = coche.valor * 1.10
-    } 
-    if (coche.fabricadoen <= 1977) { 
-      precioFinal = coche.valor * 1.30 
-    }
-    coche.costoseguro = precioFinal
-    objSalida.push(coche)
+    objSalida.push(getCostoPoliza(coche))
     fs.writeFileSync(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2))
   })
 }
