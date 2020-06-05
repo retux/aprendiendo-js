@@ -26,7 +26,7 @@ function getAutosDesdeEntrada (dirPath) {
               }
               try {
                 const objdesdeArchivo = JSON.parse(datos)
-                calcularCostoPoliza(objdesdeArchivo, archivo)
+                procesarAutos(objdesdeArchivo, archivo)
               }
               catch (error) {
                 console.log(error.message)
@@ -65,12 +65,12 @@ function getCostoPoliza(coche) {
   if (parseInt(coche.valor) >= valorAutoCopetudo) {
     costopolizaMensual *= 1.60
   }
-  costopolizaMensual *= (parseInt(coche.valor) / valorAutoCopetudo) * 3
+  costopolizaMensual *= (parseFloat(coche.valor) / parseFloat(valorAutoCopetudo)) * 3
   coche.costopoliza = costopolizaMensual.toFixed(2) 
   return coche
 }
 
-function calcularCostoPoliza(listadeAutos, archivoSalida) {
+function procesarAutos(listadeAutos, archivoSalida) {
   const objSalida = []
   listadeAutos.forEach(function(coche) {
     objSalida.push(getCostoPoliza(coche))
