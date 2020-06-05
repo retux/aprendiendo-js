@@ -1,5 +1,6 @@
 // segurola: Lee los archivos de autos desde el subdirectorio ./input y los procesa para 
-//   calcular el precio de las pólizas de seguro.
+//   calcular el precio de las pólizas de seguro. Los archivos de salida se escriben en el subdir
+//   ./output. Solo los archivos de entrada .json son procesados.
 //   Querido @kaminoo, para que no te chives, te esribo todo en español y más te vale que
 //   tengas todo en UTF-8 porque te voy a mandar caracteres extraños.
 //   Pero tener en cuenta que lo que acá son archivos en otros sitios son ficheros. No sé si semejante
