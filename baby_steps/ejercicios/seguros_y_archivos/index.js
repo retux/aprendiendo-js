@@ -74,8 +74,8 @@ function procesarAutos(listadeAutos, archivoSalida) {
   const objSalida = []
   listadeAutos.forEach(function(coche) {
     objSalida.push(getCostoPoliza(coche))
-    fs.writeFileSync(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2))
   })
+  fs.writeFileSync(path.join(__dirname, 'output', archivoSalida), JSON.stringify(objSalida, null, 2))
 }
 
 function main() {
