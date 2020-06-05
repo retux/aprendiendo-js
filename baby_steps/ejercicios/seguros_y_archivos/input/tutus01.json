@@ -1,15 +1,18 @@
 [
-  { "marca": "Renault",
+  {
+    "marca": "Renault",
     "modelo": "4",
     "fabricadoen": 1981,
     "valor": 40000 
   },
-  { "marca": "Ford",
+  { 
+    "marca": "Ford",
     "modelo": "Mustang",
     "fabricadoen": 1969,
     "valor": 980000 
   },
-  { "marca": "Chevrolet",
+  { 
+    "marca": "Chevrolet",
     "modelo": "Camaro",
     "fabricadoen": 2015,
     "valor": 1100000 
