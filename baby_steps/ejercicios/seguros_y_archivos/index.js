@@ -49,15 +49,24 @@ function getAutosDesdeEntrada (dirPath) {
 function getCostoPoliza(coche) {
   // Recibe un objeto auto, calcula su atributo valor (de póliza) y retorna
   // el objeto con ese nuevo atributo actualizado.
+  // Este es el costo base de la poliza en esta compañia. 
+  let costopolizaMensual = 1500
+  let valorAutoCopetudo = 350000
   if (coche.fabricadoen <= 2000) { 
-    precioFinal = coche.valor * 1.05
+    costopolizaMensual *= 1.05
   } 
   if (coche.fabricadoen <= 1985) {
-    precioFinal = coche.valor * 1.10
+    costopolizaMensual *= 1.10
   } 
   if (coche.fabricadoen <= 1977) { 
-    precioFinal = coche.valor * 1.30 
+    costopolizaMensual *= 1.30 
   }
+  // Plus a coches de lujo con precios mayores a valorAutoCopetudo
+  if (parseInt(coche.valor) >= valorAutoCopetudo) {
+    costopolizaMensual *= 1.60
+  }
+  costopolizaMensual *= (parseInt(coche.valor) / valorAutoCopetudo) * 3
+  coche.costopoliza = costopolizaMensual.toFixed(2) 
   return coche
 }
 
