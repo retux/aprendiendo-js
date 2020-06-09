@@ -70,7 +70,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
       - [x] Expresión
       - [x] Variable
       - [x] Arrow
-- [ ] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar
+- [x] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar
 
 ### Estructuras básicas - Parte 3 (Clase 4)
 
@@ -85,12 +85,14 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 - [x] `setTimeout` / `setInterval`
 - [ ] Extra
   - [ ] `RegExp` (Regular Expressions)
-- [ ] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar. Con la diferencia de la Clase 3 que quiero que los autos vengan de un JSON en disco, y se guarde el seguro calculado de todos en disco asi como el total.
+- [x] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar. Con la diferencia de la Clase 3 que quiero que los autos vengan de un JSON en disco, y se guarde el seguro calculado de todos en disco asi como el total.
 
-### Viviendo asincrónico
+### Viviendo asincrónico - Callbacks (Clase 5)
 
-- [ ] Callbacks
-    - [ ] Callback hell
+- [x] Callbacks
+    - [x] Callback hell
+
+### Viviendo asincrónico - Promesas (Clase 6)
 - [ ] Promises
 - [ ] `async` / `await`
 - [ ] Extra
