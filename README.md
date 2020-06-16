@@ -93,7 +93,13 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
     - [x] Callback hell
 
 ### Viviendo asincrónico - Promesas (Clase 6)
+- [x] Promises
+
+### Viviendo asincrónico - Promesas (Clase 7)
 - [ ] Promises
+  - [ ] Propagar resultados del then
+  - [ ] Re-escribir programa de la clase 6 para tener funciones genericas
+  - [ ] Utilizar las promises del fs
 - [ ] `async` / `await`
 - [ ] Extra
     - [ ] EventEmitter
