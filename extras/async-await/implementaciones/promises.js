@@ -1,7 +1,24 @@
 const fs = require('fs').promises
 const path = require('path')
-const showLogs = false
 let totalOrdenesCompra = 0
+
+const start = new Date()
+let archivosProcesados = 0
+const incrementarArchivosProcesados = _ => {
+  archivosProcesados++
+  process.stdout.cursorTo(0)
+  process.stdout.write(`PROMISES    => ARCHIVOS PROCESADOS: ${archivosProcesados}`)
+  process.stdout.cursorTo(0)
+}
+
+const memoryFootprint = _ => {
+  const memory = process.memoryUsage()
+  const profiling = []
+  Object.keys(memory).forEach(memoryKey => {
+    profiling.push(`${memoryKey.toUpperCase()}: ${(memory[memoryKey] / 1024 / 1024).toFixed(2)}MB`)
+  })
+  return profiling.join(' | ')
+}
 
 const recorrerDirectorio = (pathDirectorio) => {
   return fs.readdir(pathDirectorio).then(paths => {
@@ -27,17 +44,16 @@ const validarOrdenCompra = (pathAbsoluto) => {
       } else if (!ordenCompra.hasOwnProperty('total')) {
         throw new Error('Orden es inválida: falta total')
       } else {
-        return procesarOrdenCompra(ordenCompra)
+        procesarOrdenCompra(ordenCompra)
       }
     })
   }
-  throw new Error('No es un path de orden valida')
+  throw new Error(`No es un path de orden valida: ${pathAbsoluto}`)
 }
 
 const procesarOrdenCompra = (ordenCompra) => {
-  showLogs && console.log(`Orden Compra: ${JSON.stringify(ordenCompra)}`)
+  incrementarArchivosProcesados()
   totalOrdenesCompra += ordenCompra.total
-  return Promise.resolve()
 }
 
 const procesarPath = (pathAbsoluto) => {
@@ -47,13 +63,16 @@ const procesarPath = (pathAbsoluto) => {
     } else if (stats.isFile()) {
       return validarOrdenCompra(pathAbsoluto)
     }
-  }).catch(error => {
-    showLogs && console.log(`Tuve un problema con ${pathAbsoluto}: ${error.message}`)
+  }).catch(_ => {
   })
 }
 
 const ordenesPath = path.normalize(process.argv[2])
 const ordenesPathAbsoluto = path.isAbsolute(ordenesPath) ? ordenesPath : path.join(process.cwd(), ordenesPath)
 procesarPath(ordenesPathAbsoluto).then(_ => {
-  console.log(`TOTAL ORDENES DE COMPRA: ${totalOrdenesCompra}`)
+  process.stdout.cursorTo(0)
+  console.log(`PROMISES    => TOTAL ORDENES DE COMPRA: ${totalOrdenesCompra.toFixed(2)} (${new Date().getTime() - start.getTime()} ms, ${memoryFootprint()})`)
+}).catch(error => {
+  process.stdout.cursorTo(0)
+  console.log(`ERROR: ${error.message}`)
 })
