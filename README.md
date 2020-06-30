@@ -13,6 +13,7 @@ Si tenés una duda, sugerencia o comentario, podés dejar un [issue](https://git
 ### Empezando con Node.js (Clase 1)
 
 [![Introducción a Node.js - Aprendiendo.js - Clase 1](https://img.youtube.com/vi/uTsIyuUHsmI/0.jpg)](https://www.youtube.com/watch?v=uTsIyuUHsmI)
+
 https://www.youtube.com/watch?v=uTsIyuUHsmI
 
 - [x] Instalación
@@ -37,6 +38,7 @@ https://www.youtube.com/watch?v=uTsIyuUHsmI
 ### Estructuras básicas (Clase 2)
 
 [![Estructuras básicas en Node.js - Aprendiendo.js - Clase 2](https://img.youtube.com/vi/1UiguL677Kw/0.jpg)](https://www.youtube.com/watch?v=1UiguL677Kw)
+
 https://www.youtube.com/watch?v=1UiguL677Kw
 
 - [x] Declarando variables
@@ -74,6 +76,7 @@ https://www.youtube.com/watch?v=1UiguL677Kw
 ### Estructuras básicas - Parte 2 (Clase 3)
 
 [![Estructuras básicas en Node.js - Pt 2 - Aprendiendo.js - Clase 3](https://img.youtube.com/vi/lvXh1I9LAsE/0.jpg)](https://www.youtube.com/watch?v=lvXh1I9LAsE)
+
 https://www.youtube.com/watch?v=lvXh1I9LAsE
 
 - [x] `if`
@@ -91,6 +94,7 @@ https://www.youtube.com/watch?v=lvXh1I9LAsE
 ### Estructuras básicas - Parte 3 (Clase 4)
 
 [![Estructuras básicas en Node.js - Pt 3 - Aprendiendo.js - Clase 4](https://img.youtube.com/vi/LBgkvbPawHk/0.jpg)](https://www.youtube.com/watch?v=LBgkvbPawHk)
+
 https://www.youtube.com/watch?v=LBgkvbPawHk
 
 - [x] `for` / `while` / `do... while`
@@ -109,6 +113,7 @@ https://www.youtube.com/watch?v=LBgkvbPawHk
 ### Viviendo asincrónico - Callbacks (Clase 5)
 
 [![Viviendo asincrónico - Callbacks en Node.js - Aprendiendo.js - Clase 5](https://img.youtube.com/vi/hnEv07gPy8A/0.jpg)](https://www.youtube.com/watch?v=hnEv07gPy8A)
+
 https://www.youtube.com/watch?v=hnEv07gPy8A
 
 - [x] Callbacks
@@ -128,6 +133,7 @@ https://www.youtube.com/watch?v=oLGCdRkIccA
 ### Viviendo asincrónico - Promesas (Clase 7)
 
 [![Viviendo asincrónico - Promises Reloaded - Aprendiendo.js - Clase 7](https://img.youtube.com/vi/aiJN0PknqCI/0.jpg)](https://www.youtube.com/watch?v=aiJN0PknqCI)
+
 https://www.youtube.com/watch?v=aiJN0PknqCI
 
 - [x] Promises Reloaded
@@ -139,6 +145,7 @@ https://www.youtube.com/watch?v=aiJN0PknqCI
 ### Viviendo asincrónico - Promesas (Clase 8)
 
 [![Viviendo asincrónico - async/await - Aprendiendo.js - Clase 8](https://img.youtube.com/vi/ZhyQXRac5pM/0.jpg)](https://www.youtube.com/watch?v=ZhyQXRac5pM)
+
 https://www.youtube.com/watch?v=ZhyQXRac5pM
 
 - [x] `async` / `await`
