@@ -1,5 +1,5 @@
 // App: segurola
-// version: 0.0.1
+// version: 0.0.2
 // autor: retux
 // ==============================================================================================
 // Lee los archivos de autos desde el subdirectorio ./input y los procesa para 
@@ -10,8 +10,7 @@
 
 const fs = require('fs')
 const path = require('path')
-const { arch } = require('os')
-
+const os = require('os')
 
 function getArchivosdelDir(dirPath) {
   let jsonsArchivos
@@ -42,19 +41,35 @@ async function procesarArchivojson(pathArchivo) {
 
 async function procesarInput(directorioInput, directorioOutput = path.join(__dirname, 'output')) {
   // Recorre el directorio input y despacha el procesamiento de cada archivo.
+  
+  const informeTotal = { 
+    'costoTotal': 0, 
+    'valorMercadoTotal': 0,
+    'totalAutomoviles': 0
+  }
   let listadeArchivos = await getArchivosdelDir(directorioInput)
   listadeArchivos = await filtrarArchivos(listadeArchivos, '.json')
   for (let i=0; i<listadeArchivos.length; i++) {
     let arrAutos = await procesarArchivojson(path.join(directorioInput, listadeArchivos[i]))
-    await procesarAutos(arrAutos, path.join(directorioOutput,listadeArchivos[i]))  
+    await procesarAutos(arrAutos, path.join(directorioOutput,listadeArchivos[i]), informeTotal)  
   }
+  try {
+    fs.promises.writeFile(path.join(directorioOutput, 'totales.json'), JSON.stringify(informeTotal, null, 2))
+  } catch (error) {
+    console.log(`[error] Ameo, error al escribir archivo de totales. Vayan a buscar a retux.: ${error.message}`)
+  }
+  return informeTotal
 }
 
-async function procesarAutos(listadeAutos, archivoSalida) {
+async function procesarAutos(listadeAutos, archivoSalida, informeTotal) {
   // Recibe un array de obj autos y nombre de archivo para escribirlo en dir output.
   const objSalida = []
   for (let i=0; i<listadeAutos.length; i++) {
-    objSalida.push(getCostoPoliza(listadeAutos[i]))
+    coche = getCostoPoliza(listadeAutos[i])
+    objSalida.push(coche)
+    informeTotal.costoTotal += coche.costopoliza
+    informeTotal.valorMercadoTotal += coche.valor
+    informeTotal.totalAutomoviles++
   }
   console.log(`[info] Escrito archivo: ${archivoSalida}.`)
   try {
@@ -88,55 +103,12 @@ function getCostoPoliza(coche) {
   return coche
 }
 
-// TODO: USAR ESTA FUNCION PARA CALCULO DE TOTALES
-async function crearListadesdeArchivos(directorio) {
-  //Recibe path de directorio input y devuelve array con todos los objetos que encuentre
-  let arrToReturn = []
-  let listadeArchivos = await getArchivosdelDir(directorio)
-  listadeArchivos = await filtrarArchivos(listadeArchivos, '.json')
-  for (let i=0; i<listadeArchivos.length; i++) {
-    try {
-      //console.log('[debug] Abriendo: ' + path.join(directorio, listadeArchivos[i]))
-      const jsonDatos = await fs.promises.readFile(path.join (directorio, listadeArchivos[i]))
-      const objdesdeArchivo = JSON.parse(jsonDatos)
-      arrToReturn = arrToReturn.concat(objdesdeArchivo)
-    }
-    catch (error) {
-      console.log(`[error] Ameo, fijate bien los json, algo está mal con ellos: ${error.message} `)
-    }
-  }
-  return arrToReturn
-}
-
-function calculaTotales (listaConsolidada, directorioSalida) {
-  const informeTotal = { 
-    'costoTotal': 0, 
-    'valorMercadoTotal': 0,
-    'totalAutomoviles': 0
-  }
-  informeTotal.totalAutomoviles = listaConsolidada.length
-  for (let i=0; i<listaConsolidada.length; i++) {
-    informeTotal.costoTotal += listaConsolidada[i].costopoliza
-    informeTotal.valorMercadoTotal += listaConsolidada[i].valor
-  }
-  try {
-    fs.promises.writeFile(path.join(directorioSalida, 'totales.json'), JSON.stringify(informeTotal, null, 2))
-  } catch (error) {
-    console.log(`[error] Ameo, error al escribir archivo de totales. Vayan a buscar a retux.: ${error.message}`)
-  }
-}
-
 async function main() {
   const directorioInput = path.join(__dirname, 'input')
   const directorioOutput = path.join(__dirname, 'output')
-  // Primero procesa archivos individuales y calcula póliza de cada coche.
-  await procesarInput(directorioInput)
-  console.log('[info] Calculando totales...')
-  // Luego calcula totales
-  const listaObjAutos = await crearListadesdeArchivos(directorioOutput)
-  calculaTotales(listaObjAutos, directorioOutput)
-  console.log('')
-  console.log(`[info] Cantidad de coches procesados: ${listaObjAutos.length}`)
+  informeTotal = await procesarInput(directorioInput)
+  console.log('[info] Totales: ' + os.EOL)
+  console.log(informeTotal)
   console.log('[info] Joven Luke, tu destino es claro, el directorio output ver debes. Archivo totales.json totales contiene.')
 }
 
