@@ -191,6 +191,8 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 
 ### APIs - Una API en producción
 
+- [ ] Pipedream
+- [ ] Vercel
 - [ ] Linux bare
 - [ ] Docker
     - [ ] Dockerfile
