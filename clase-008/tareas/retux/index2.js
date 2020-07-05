@@ -103,7 +103,7 @@ function getCostoPoliza(coche) {
   const directorioInput = path.join(__dirname, 'input')
   const directorioOutput = path.join(__dirname, 'output')
   let listadeArchivos = await getListaArchivosdelDir(directorioInput)
-  listadeArchivos = await filtrarArchivos(listadeArchivos, '.json')
+  listadeArchivos = filtrarArchivos(listadeArchivos, '.json')
   for (let i=0; i<listadeArchivos.length; i++) {
     try {
       arrAutos = JSON.parse(await leerArchivoConAsync(path.join(directorioInput, listadeArchivos[i])))
