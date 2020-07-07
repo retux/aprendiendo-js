@@ -149,7 +149,7 @@ https://www.youtube.com/watch?v=aiJN0PknqCI
 https://www.youtube.com/watch?v=ZhyQXRac5pM
 
 - [x] `async` / `await`
-- [ ] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar. Quiero que los autos vengan de un JSON en disco, y se guarde el seguro calculado de todos en disco asi como el total. Todo con async/await
+- [x] Tarea: hacer un programa que tenga un array de objetos que sean marcas y autos, calcular el seguro de cada uno, y el total a pagar. Quiero que los autos vengan de un JSON en disco, y se guarde el seguro calculado de todos en disco asi como el total. Todo con async/await
 
 ---
 
@@ -159,14 +159,14 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 
 https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
-- [ ] Utilización de librerías de Node.js
-- [ ] Utilización de librerías de terceros (npm)
-- [ ] Creación de librerías propias
-- [ ] Visual Studio Code: Extensions
-  - [ ] Standard.js
-  - [ ] ESLint
-- [ ] Extras (?):
-  - [ ] `readline`
+- [x] Utilización de librerías de Node.js
+- [x] Utilización de librerías de terceros (npm)
+- [x] Creación de librerías propias
+- [x] Visual Studio Code: Extensions
+  - [x] Standard.js
+  - [x] ESLint
+- [x] Extras (?):
+  - [x] `readline`
 - [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
 
 ---

@@ -1,0 +1,14 @@
+{
+  "name": "clase-009",
+  "version": "1.0.0",
+  "description": "",
+  "main": "librerias-node.js",
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "sharp": "0.25.4"
+  },
+  "devDependencies": {
+    "debug": "4.1.1"
+  }
+}
