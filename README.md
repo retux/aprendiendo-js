@@ -153,7 +153,11 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 
 ---
 
-### Librerías
+### Librerías (Clase 9)
+
+[![Librerías - Aprendiendo.js - Clase 9](https://img.youtube.com/vi/aDbJlvMQ2Wk/0.jpg)](https://www.youtube.com/watch?v=aDbJlvMQ2Wk)
+
+https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 - [ ] Utilización de librerías de Node.js
 - [ ] Utilización de librerías de terceros (npm)
@@ -161,6 +165,8 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 - [ ] Visual Studio Code: Extensions
   - [ ] Standard.js
   - [ ] ESLint
+- [ ] Extras (?):
+  - [ ] `readline`
 - [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
 
 ---
@@ -234,7 +240,6 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 - [ ] `RegExp` (Regular Expressions)
 - [ ] `nodemon`
 - [ ] CLI
-  - [ ] `readline`
   - [ ] `commander`
 - [ ] `EventEmitter`
 - [ ] HTML Templates
