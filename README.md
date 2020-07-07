@@ -158,6 +158,9 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 - [ ] Utilización de librerías de Node.js
 - [ ] Utilización de librerías de terceros (npm)
 - [ ] Creación de librerías propias
+- [ ] Visual Studio Code: Extensions
+  - [ ] Standard.js
+  - [ ] ESLint
 - [ ] Tarea: Realizar un programa de consola que pida algunos datos, los guarde en un JSON, y si corro el programa de nuevo me deje ver los datos y modificarlos
 
 ---
@@ -230,7 +233,6 @@ https://www.youtube.com/watch?v=ZhyQXRac5pM
 ### Extras
 - [ ] `RegExp` (Regular Expressions)
 - [ ] `nodemon`
-- [ ] Standard.js
 - [ ] CLI
   - [ ] `readline`
   - [ ] `commander`
