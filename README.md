@@ -47,7 +47,7 @@ https://www.youtube.com/watch?v=1UiguL677Kw
     - [x] `typeof`
     - [x] Declaración
     - [x] Asignación    
-- [ ] Tipos de datos
+- [x] Tipos de datos
     - [x] `string`
     - [x] `number`
     - [x] `boolean`
@@ -62,11 +62,11 @@ https://www.youtube.com/watch?v=1UiguL677Kw
         - [x] `map`
         - [x] `filter`
         - [x] `concat`
-    - [ ] `Object` (Hashmaps)
+    - [x] `Object` (Hashmaps)
         - [x] Declaración
           - [x] Expresión
-          - [ ] function (no recomendada)
-          - [ ] new (luego de ver POO)
+          - [x] function
+          - [x] new
         - [x] Asignación
         - [x] `keys`
         - [x] `assign`
@@ -171,14 +171,31 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### Programación orientada a objetos (POO, o tambíen OOP en inglés)
+### Programación orientada a objetos (POO, o tambíen OOP en inglés) (Clase 10)
 
-- [ ] Clases
-- [ ] Objetos
-- [ ] Herencia
-- [ ] this
-- [ ] Extra
-    - [ ] Singleton
+[![Librerías - Aprendiendo.js - Clase 10](https://img.youtube.com/vi/eBw39UrVz5c/0.jpg)](https://www.youtube.com/watch?v=eBw39UrVz5c)
+
+- [x] Principios de OOP
+  - [x] Abstracción
+  - [x] Encapsulamiento
+  - [x] Herencia
+  - [x] Polimorfismo
+- [x] Prototype
+  - [x] Ejemplos
+  - [x] Encapsulamiento
+  - [x] Herencia
+  - [x] Polimorfismo
+- [x] Classes
+  - [x] Ejemplos
+  - [x] Encapsulamiento
+  - [x] Herencia
+  - [x] Polimorfismo
+- [x] Extra
+  - [x] Debugging en Visual Studio Code
+  - [x] Singleton
+---
+
+### Resumen a la fecha (Clase 11)
 
 ---
 
