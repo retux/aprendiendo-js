@@ -193,9 +193,12 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 - [x] Extra
   - [x] Debugging en Visual Studio Code
   - [x] Singleton
+
 ---
 
-### Resumen a la fecha (Clase 11)
+### Clase de Repaso (Clase 11)
+
+[![Clase de Repaso - Aprendiendo.js - Clase 11](https://img.youtube.com/vi/irgv6848sUA/0.jpg)](https://www.youtube.com/watch?v=irgv6848sUA)
 
 ---
 
