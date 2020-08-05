@@ -6,4 +6,5 @@ node_modules
 !.vscode/launch.json
 !.vscode/extensions.json
 .history/
-clase-012/config.telegram.js
+common/config.telegram.js
+ngrok

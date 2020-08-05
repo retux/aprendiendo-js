@@ -1,5 +1,5 @@
 const got = require('got')
-const configTelegram = require('./config.telegram')
+const configTelegram = require('../common/config.telegram')
 
 ;(async _ => {
   try {
