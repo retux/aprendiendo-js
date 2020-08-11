@@ -202,68 +202,138 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### APIs - Consumir una API
+### APIs - Utilizando got para conectarnos (Clase 12)
 
-- [ ] HTTP / GET / POST / PUT / DELETE
-- [ ] JSON
-- [ ] Postman
-- [ ] request / axios    
+[![APIs - Utilizando got para conectarnos - Aprendiendo.js - Clase 12](https://img.youtube.com/vi/orzzFNv_VXc/0.jpg)](https://www.youtube.com/watch?v=orzzFNv_VXc)
 
----
-
-### APIs - Creando una API con Express
-
-- [ ] Server inicial
-- [ ] Rutas
+- [x] HTTP / GET / POST / PUT / DELETE
+- [x] JSON
+- [x] Postman
+- [x] request / axios / got
 
 ---
 
-### APIs - Una API en producción
+### APIs - Creando una API con Express (Clase 13)
 
-- [ ] Pipedream
-- [ ] Vercel
+[![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 13](https://img.youtube.com/vi/JFExYe7-qtI/0.jpg)](https://www.youtube.com/watch?v=JFExYe7-qtI)
+
+- [x] Server inicial
+- [x] Rutas
+- [x] `nodemon`
+
+---
+
+### APIs - Creando una API con Express - Parte 2 (Clase 14)
+
+[![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 14](https://img.youtube.com/vi/Y9LP63N1beE/0.jpg)](https://www.youtube.com/watch?v=Y9LP63N1beE)
+
+- [ ] Ordenando el código
+- [ ] Polling vs Webhooks
+- [ ] HTTPS / Tunnels / ngrok
+- [ ] HTML Templates
+- [ ] Subir archivos
+
+---
+
+### APIs - Creando una API con Express - Autenticación (Clase 15)
+
+- [ ] CORS
+- [ ] Basic auth
+- [ ] JWT
+
+---
+
+### APIs - Funcionamiento en producción - Linux
+
+- [ ] nginx
 - [ ] Linux bare
+
+---
+
+### APIs - Funcionamiento en producción - Docker + Kubernetes
+
 - [ ] Docker
     - [ ] Dockerfile
+- [ ] Kubernetes
 
 ---
 
-### Bases de datos
+### APIs - Funcionamiento en producción - Cloud - Pipedream
+
+- [ ] Pipedream
+
+---
+
+### APIs - Funcionamiento en producción - Cloud - Vercel
+
+- [ ] Vercel
+
+---
+
+### APIs - Funcionamiento en producción - Cloud - Firebase
+
+- [ ] Firebase
+
+---
+
+### Bases de datos - MongoDB
 
 - [ ] MongoDB / mongoose
-    - [ ] Schema / Modelo
-    - [ ] Indices
-    - [ ] insert
-    - [ ] update
-    - [ ] delete
-    - [ ] find / findOne
+  - [ ] Schema / Modelo
+  - [ ] Indices
+  - [ ] insert
+  - [ ] update
+  - [ ] delete
+  - [ ] find / findOne
+
+---
+
+### Bases de datos - Redis
+
 - [ ] Redis
 
 ---
 
-### Comunicación entre procesos - Moleculer
-- [ ] moleculer
+### Bases de datos - PostgreSQL
+
+- [ ] PostgreSQL
 
 ---
 
-### Comunicación entre procesos - Cote
-- [ ] cote
+### Bases de datos - BigQuery + Data Studio
+
+- [ ] BigQuery
+- [ ] Data Studio
 
 ---
 
-### Comunicación entre procesos - Bull
+### Comunicación entre procesos / Tareas - Bull
+
 - [ ] bull
 
 ---
 
+### Comunicación entre procesos / Tareas - Moleculer
+
+- [ ] moleculer
+
+---
+
+### Comunicación entre procesos / Tareas - Cote
+
+- [ ] cote
+
+---
+
+### Regular Expressions
+
+- [ ] `RegExp`
+
+---
+
 ### Extras
-- [ ] `RegExp` (Regular Expressions)
-- [ ] `nodemon`
-- [ ] CLI
-  - [ ] `commander`
+
 - [ ] `EventEmitter`
-- [ ] HTML Templates
-- [ ] nginx
 
 ---
 
