@@ -227,19 +227,26 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 [![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 14](https://img.youtube.com/vi/Y9LP63N1beE/0.jpg)](https://www.youtube.com/watch?v=Y9LP63N1beE)
 
-- [ ] Ordenando el código
-- [ ] Polling vs Webhooks
-- [ ] HTTPS / Tunnels / ngrok
-- [ ] HTML Templates
-- [ ] Subir archivos
+- [x] Ordenando el código
+- [x] HTTPS / Tunnels / ngrok
+- [x] Polling vs Webhooks
 
 ---
 
-### APIs - Creando una API con Express - Autenticación (Clase 15)
+### APIs - Creando una API con Express - Parte 3 (Clase 15)
+
+- [ ] HTML Templates
+- [ ] Subir archivos
+- [ ] Mencionar otros frameworks de APIs
+
+---
+
+### APIs - Creando una API con Express - Autenticación (Clase 16)
 
 - [ ] CORS
 - [ ] Basic auth
 - [ ] JWT
+- [ ] SDKs?
 
 ---
 
@@ -321,7 +328,7 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ### Comunicación entre procesos / Tareas - Cote
 
-- [ ] cote
+- [ ] cotê
 
 ---
 
