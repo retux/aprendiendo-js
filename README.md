@@ -235,15 +235,22 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ### APIs - Creando una API con Express - Parte 3 (Clase 15)
 
-- [ ] HTML Templates
+[![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 15](https://img.youtube.com/vi/wB4EpUT3mgw/0.jpg)](https://www.youtube.com/watch?v=wB4EpUT3mgw)
+
+- [x] HTML Templates
+
+---
+
+### APIs - Creando una API con Express - Subir archivos y CORS (Clase 16)
+
 - [ ] Subir archivos
+- [ ] CORS
 - [ ] Mencionar otros frameworks de APIs
 
 ---
 
-### APIs - Creando una API con Express - Autenticación (Clase 16)
+### APIs - Creando una API con Express - Autenticación
 
-- [ ] CORS
 - [ ] Basic auth
 - [ ] JWT
 - [ ] SDKs?

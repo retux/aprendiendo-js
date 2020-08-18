@@ -1,0 +1,28 @@
+{% extends "partials/template.njk" %}
+
+{% set title = "Productos" %}
+
+{% block main %}
+  <p><a href="/html">&lt; Home</a> | Productos</p>
+  <table border="2">
+    {% for producto in productos %}
+      <tr>
+        <td>{{ producto.nombre }}</td>
+        <td>$ {{ producto.valor }}</td>
+      </tr>
+    {% else %}
+      <tr>
+        <td>No hay productos</td>
+      </tr>
+    {% endfor %}
+  </table>
+  <br/>
+  {% if mercadoPago %}
+  Aceptamos Mercado Pago ✅
+  {% else %}
+  Solo pago efectivo
+  {% endif %}
+  <div class="alert alert-primary" role="alert">
+    A simple primary alert—check it out!
+  </div>
+{% endblock %}
