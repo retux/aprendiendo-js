@@ -223,9 +223,9 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### APIs - Creando una API con Express - Parte 2 (Clase 14)
+### APIs - Ordenando nuestras rutas con Express (Clase 14)
 
-[![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 14](https://img.youtube.com/vi/Y9LP63N1beE/0.jpg)](https://www.youtube.com/watch?v=Y9LP63N1beE)
+[![APIs - Ordenando nuestras rutas con Express - Aprendiendo.js - Clase 14](https://img.youtube.com/vi/Y9LP63N1beE/0.jpg)](https://www.youtube.com/watch?v=Y9LP63N1beE)
 
 - [x] Ordenando el código
 - [x] HTTPS / Tunnels / ngrok
@@ -233,15 +233,15 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### APIs - Creando una API con Express - Parte 3 (Clase 15)
+### APIs - HTML Templates en Express (Clase 15)
 
-[![APIs - Creando un servidor con Express - Aprendiendo.js - Clase 15](https://img.youtube.com/vi/wB4EpUT3mgw/0.jpg)](https://www.youtube.com/watch?v=wB4EpUT3mgw)
+[![APIs - HTML Templates en Express - Aprendiendo.js - Clase 15](https://img.youtube.com/vi/wB4EpUT3mgw/0.jpg)](https://www.youtube.com/watch?v=wB4EpUT3mgw)
 
 - [x] HTML Templates
 
 ---
 
-### APIs - Creando una API con Express - Subir archivos y CORS (Clase 16)
+### APIs - Subir archivos en Express (Clase 16)
 
 - [ ] Subir archivos
 - [ ] CORS
@@ -249,7 +249,7 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### APIs - Creando una API con Express - Autenticación
+### APIs - Autenticación en Express
 
 - [ ] Basic auth
 - [ ] JWT
