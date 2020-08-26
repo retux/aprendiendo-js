@@ -243,14 +243,16 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ### APIs - Subir archivos en Express (Clase 16)
 
-- [ ] Subir archivos
-- [ ] CORS
-- [ ] Mencionar otros frameworks de APIs
+[![APIs - Subir archivos en Express - Aprendiendo.js - Clase 16](https://img.youtube.com/vi/vHlcdO687LU/0.jpg)](https://www.youtube.com/watch?v=vHlcdO687LU)
+
+- [x] Subir archivos
+- [x] Mencionar otros frameworks de APIs
 
 ---
 
 ### APIs - Autenticación en Express
 
+- [ ] CORS
 - [ ] Basic auth
 - [ ] JWT
 - [ ] SDKs?
@@ -345,9 +347,17 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### Extras
+### Temas para incluir en el calendario
 
 - [ ] `EventEmitter`
+- [ ] APIs web frameworks: Adonis.js
+- [ ] APIs web frameworks: Hapi.js
+- [ ] APIs web frameworks: Nest.js
+- [ ] Adminbro + Nest.js
+- [ ] Autocode
+- [ ] Puppeteer
+- [ ] Excel, Word, PDF
+- [ ] Google spreadsheets
 
 ---
 
