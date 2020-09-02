@@ -250,12 +250,13 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
-### APIs - Autenticación en Express
+### APIs - Autenticación en Express (Clase 17)
 
-- [ ] CORS
-- [ ] Basic auth
-- [ ] JWT
-- [ ] SDKs?
+- [x] CORS
+- [x] Basic authentication
+- [x] JWT
+- [x] SDKs
+  - [x] Auth0
 
 ---
 
