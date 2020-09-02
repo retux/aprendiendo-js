@@ -252,6 +252,8 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ### APIs - Autenticación en Express (Clase 17)
 
+[![APIs - Subir archivos en Express - Aprendiendo.js - Clase 17](https://img.youtube.com/vi/Sv8kYijVKU0/0.jpg)](https://www.youtube.com/watch?v=Sv8kYijVKU0)
+
 - [x] CORS
 - [x] Basic authentication
 - [x] JWT
