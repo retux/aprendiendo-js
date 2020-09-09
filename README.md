@@ -262,6 +262,15 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ---
 
+### APIs - Websockets (Socket.io) en Node.js (Clase 18)
+
+[![APIs - Websockets (Socket.io) en Node.js - Aprendiendo.js - Clase 18](https://img.youtube.com/vi/HsnIk4IOtXw/0.jpg)](https://www.youtube.com/watch?v=HsnIk4IOtXw)
+
+- [x] EventEmitter
+- [x] Socket.io
+
+---
+
 ### APIs - Funcionamiento en producción - Linux
 
 - [ ] nginx
@@ -352,7 +361,6 @@ https://www.youtube.com/watch?v=aDbJlvMQ2Wk
 
 ### Temas para incluir en el calendario
 
-- [ ] `EventEmitter`
 - [ ] APIs web frameworks: Adonis.js
 - [ ] APIs web frameworks: Hapi.js
 - [ ] APIs web frameworks: Nest.js
