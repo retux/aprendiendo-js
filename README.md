@@ -272,9 +272,9 @@ https://www.youtube.com/watch?v=HsnIk4IOtXw
 
 ---
 
-### MongoDB  - Primeros pasos con Node.js 
+### MongoDB - Primeros pasos con Node.js 
 
-[![MongoDB  - Primeros pasos con Node.js - Aprendiendo.js - Clase 19](https://img.youtube.com/vi/U1uI2jV8zZA/mqdefault.jpg)](https://www.youtube.com/watch?v=U1uI2jV8zZA)
+[![MongoDB - Primeros pasos con Node.js - Aprendiendo.js - Clase 19](https://img.youtube.com/vi/U1uI2jV8zZA/mqdefault.jpg)](https://www.youtube.com/watch?v=U1uI2jV8zZA)
 https://www.youtube.com/watch?v=U1uI2jV8zZA
 
 - [x] MongoDB / mongoose
@@ -284,11 +284,29 @@ https://www.youtube.com/watch?v=U1uI2jV8zZA
 
 ---
 
-### MongoDB  - API REST completa en Express.js 
+### MongoDB - API REST completa #1 en Express.js 
 
-- [ ] Indices
+[![MongoDB - API REST completa #1 en Express.js - Aprendiendo.js - Clase 20](https://img.youtube.com/vi/NewyquCceIc/mqdefault.jpg)](https://www.youtube.com/watch?v=NewyquCceIc)
+https://www.youtube.com/watch?v=NewyquCceIc
+
+- [x] Validaciones
+  - [x] required
+  - [x] unique
+  - [x] match
+- [x] Indices
+  - [x] Simples
+  - [x] Compuestos
+  - [x] notablescan
+- [x] pre save para createdAt, updatedAt
+- [x] Borrado lógico vs Borrado físico con deletedAt
+
+---
+
+### MongoDB  - API REST completa #2 en Express.js 
+
 - [ ] update
 - [ ] delete
+- [ ] Queries complejas
 
 &nbsp;
 &nbsp;
