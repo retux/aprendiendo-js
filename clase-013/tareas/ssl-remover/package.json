@@ -1,0 +1,18 @@
+{
+  "name": "ssl-remover",
+  "version": "0.0.1",
+  "description": "ssl remove endpoint. Takes an url resolves it and returns plain http for older browsers.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "standard": "^14.3.4"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "got": "^11.7.0"
+  }
+}
